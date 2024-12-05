@@ -17,7 +17,7 @@ nav a:hover{
     margin-top: 50px;
     height: 800px;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns:50% 50%;
 }
 
 .div-un{
@@ -32,3 +32,23 @@ nav a:hover{
     max-width: 400px;/* Modifie la largeur de l'image*/
     max-height: 100%;/* Modifie la hauteur de l'mage*/
 }
+
+button{
+    background-color: rgb(13, 91, 155);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+button:hover{
+    background-color: orangered;
+}
+.bg-gris{
+    background-color: #333333a6;
+}
+
